@@ -34,11 +34,12 @@
     cursor: pointer;
     font-size: 1.3rem;
     font-family: var(--font-base);
+    transition: 0.5s ease;
 }
 
 .app__navbar-links li:hover
 {
-    color: var(--color-grey);
+    color: var(--color-golden);
 }
 
 .app__navbar-login
@@ -59,7 +60,7 @@
 
 .app__navbar-login a:hover
 {
-    border-bottom: 1px solid var(--color-golden);
+    color: var(--color-golden);
 }
 
 .app__navbar-login div
