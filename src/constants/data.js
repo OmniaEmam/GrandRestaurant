@@ -2,57 +2,57 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
+    title: 'Strawberry Krazy',
     price: '$56',
-    tags: 'AU | Bottle',
+    tags:  'Cup',
   },
   {
-    title: 'Catena Malbee',
+    title: 'Blueberry Delight',
     price: '$59',
-    tags: 'AU | Bottle',
+    tags:  'Cup',
   },
   {
-    title: 'La Vieillw Rose',
+    title: 'The Grape Escape',
     price: '$44',
-    tags: 'FR | 750 ml',
+    tags:  'Bottle | 750 ml',
   },
   {
-    title: 'Rhino Pale Ale',
+    title: 'Fresh Squeezed',
     price: '$31',
-    tags: 'CA | 750 ml',
+    tags:  'Bottle | 750 ml',
   },
   {
-    title: 'Irish Guinness',
+    title: 'Orange Nation',
     price: '$26',
-    tags: 'IE | 750 ml',
+    tags:  'Bottle | 750 ml',
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
+    title: 'Power Punch',
     price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    tags: 'soda | 30 ml',
   },
   {
-    title: "Dark 'N' Stormy",
+    title: "Juicy Jamboree",
     price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    tags:  'soda | 50 ml',
   },
   {
-    title: 'Daiquiri',
+    title: 'Grape Expectations Juice',
     price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    tags:  'Citrus juice | Sugar',
   },
   {
     title: 'Old Fashioned',
     price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    tags:  'soda | Brown sugar',
   },
   {
     title: 'Negroni',
     price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    tags:  'soda | Orange garnish',
   },
 ];
 
