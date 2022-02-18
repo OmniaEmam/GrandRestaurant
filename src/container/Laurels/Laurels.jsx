@@ -1,11 +1,38 @@
 import React from 'react';
 
+import { SubHeading } from '../../components';
+import { images , data }  from '../../constants';
 import './Laurels.css';
 
 const Laurels = () => (
-  <div>
-    Laurels
+  <div className="app__bg app__wrapper section__padding" id="awards">
+    
+    <div className="app__wrapper_info">
+      <SubHeading title="Awards & Recognition"/>
+      <h1 className="headtext__cormorant">Our Laurels</h1>
+      
+      <div className="app__laurels_awards">
+        {data.awards.map((award) => <AwardCard award={award} key={award.title}/>)}
+      </div>
+    </div>
+
+    <div className="app__wrapper_img">
+      <img src={images.laurels} alt="laurels_img" />
+    </div>
+
   </div>
 );
+
+const AwardCard = ({ award : {imgUrl, title, subtitle} }) =>
+(
+  <div className="app__laurels_awards-card">
+    <img src={imgUrl} alt="awards"/>
+    <div className="app__Laurels_awards-card_content">
+      <p className="p__cormorant" style={{color : '#ffb855' , fontSize: '20px'}}>{title}</p>
+      <p className="p__cormorant" style={{fontSize: '17px'}}>{subtitle}</p>
+    </div>
+  </div>
+);
+
 
 export default Laurels;
